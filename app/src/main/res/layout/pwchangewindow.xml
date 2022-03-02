@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="20dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/npw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:ems="10"
+        android:hint="Enter a new password"
+        android:inputType="textPassword"
+
+        android:paddingHorizontal="15dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pwc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:ems="10"
+        android:hint="Confirm your password"
+        android:inputType="textPassword"
+
+        android:paddingHorizontal="15dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:paddingHorizontal="15dp"
+        android:text="Done" />
+</LinearLayout>
